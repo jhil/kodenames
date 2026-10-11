@@ -1,0 +1,8 @@
+.git
+.gitignore
+.assetsignore
+.wrangler
+.DS_Store
+wrangler.jsonc
+README.md
+LICENSE.md

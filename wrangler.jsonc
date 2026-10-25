@@ -1,11 +1,11 @@
 {
-  // Serves this static site from a Cloudflare Worker at kodenames.jeffanders.co.
+  // Serves this static site from a Cloudflare Worker at kodenames.jeffand.co.
   // There is no build step: the repo root is the site. Files that aren't part
   // of the site are listed in .assetsignore.
   "name": "kodenames",
   "compatibility_date": "2026-10-01",
   "assets": { "directory": "./" },
-  "routes": [{ "pattern": "kodenames.jeffanders.co", "custom_domain": true }],
+  "routes": [{ "pattern": "kodenames.jeffand.co", "custom_domain": true }],
   "workers_dev": false,
   "preview_urls": false
 }
